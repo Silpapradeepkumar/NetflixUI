@@ -1,0 +1,186 @@
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.newindianexpress.com/uploads/user/imagelibrary/2021/12/6/w1200X800/MH5-.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    
+
+}
+h1{
+    color: white;
+    padding: 3px;
+    
+}
+.child-content {
+
+    display: flex;
+
+
+}
+.child{
+
+    position: absolute;
+    top: 122px;
+    right: 580px;
+}
+.child .child-content h1{
+
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+.child .child-content h1:first-child{
+
+    color: red;
+
+}
+
+.child  button{
+    color: white;
+    background-color: rgba(150, 144, 144, 0.575);
+    padding: 8px;
+    border: none;
+}
+.navbar{
+overflow: hidden;
+background-color: rgba(6, 6, 26, 0);
+display: flex;
+
+
+}
+    .navbar a{
+    float: left;
+    color: #f2f2f2ef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    }
+    .navbar img{
+
+        background-blend-mode: color;
+    }
+
+    .block1{
+
+    
+
+        height: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        padding: 10px;
+
+    }
+    .eee{
+        margin-top: -28px;
+    }
+   
+    
+   
+    .block1::-webkit-scrollbar{
+
+        display: none;
+        margin-bottom: 0px;
+    }
+    img{
+
+        height: 100px;
+        width: 180px;
+
+        padding: 10px;
+
+    }
+    img:hover{
+      
+        transform: scale(1.1);
+        border: 1px solid white;
+       
+    }
+    .aaa:hover{
+        background-color: rgba(65, 88, 88, 0.452);
+        transform: scale(1.1);
+        text-transform: uppercase;
+        cursor: grab;
+    
+    }
+
+
+    .block2{
+
+    
+        height: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+
+    }
+   #h1{
+margin-top: -17px;
+margin-bottom: -28;
+   }
+#h2{
+
+    margin-top: -35px;
+}
+#para{
+    color: white;
+    margin-top: -157px;
+    margin-left: 227px;
+}
+
+
+
+/* hover effext */
+.hoverbtn:hover{
+    background-color: rgb(175 163 163 / 57%);
+    cursor: pointer;
+}
+
+.footer{
+    
+    height: 300px;
+    width: 100vw;
+    display: flex;
+
+}
+.footer-content{
+
+    color: white;
+    height: 200px;
+    width: 200px;
+    
+    padding: 2px;
+   
+}
+ul{
+
+    list-style: none;
+}
+.ref{
+    color: white;
+}
+#nfi{
+
+    margin-left: 40px;
+}
+.footer-para{
+    color: white;
+    margin-left:  2px;
+}
+
+
+

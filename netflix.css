@@ -1,0 +1,19 @@
+.parent{
+position: relative;
+
+}
+.child{
+    height: 500px;
+    width: 1300px;
+    background-image: url(https://images.newindianexpress.com/uploads/user/imagelibrary/2021/12/6/w1200X800/MH5-.jpg);
+}
+.child_content{
+    color: white;
+ position: absolute;
+ top: 140px;
+
+}
+a{
+color: white;
+
+}
